@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "airbnb-streamlit-sample"
+version = "0.1.0"
+description = "NYC Airbnb 2019 Streamlit dashboard (sample app)"
+readme = "README.md"
+packages = [{ include = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "*"
+pandas = "*"
+plotly = "*"
+numpy = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
